@@ -16,7 +16,7 @@
 </script>
 
 <main>
-	<textarea bind:value={katexRaw}></textarea>
+	<textarea bind:value={katexRaw} class="font-mono"></textarea>
 	<div bind:innerHTML={renderedKatex} contenteditable></div>
 </main>
 
