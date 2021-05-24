@@ -20,6 +20,8 @@
 	<div bind:innerHTML={renderedKatex} contenteditable></div>
 </main>
 
-<style>
-	/* pass */
+<style global lang="postcss">
+	@tailwind base;
+	@tailwind components;
+	@tailwind utilities;
 </style>
