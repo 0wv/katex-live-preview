@@ -3,7 +3,20 @@
 </script>
 
 <ul class="bg-gray-600 flex m-4 mb-0 rounded-t-2xl">
-	<li class="ml-auto mr-4">
+	<li class="ml-auto">
+		{#if $location !== "/settings"}
+			<a
+				class="hover:bg-gray-500 hover:no-underline inline-block p-4 text-gray-100 text-lg visited:text-gray-100"
+				href="/#/settings">設定</a
+			>
+		{:else}
+			<a
+				class="hover:bg-gray-500 bg-gray-700 hover:no-underline inline-block p-4 text-gray-100 text-lg visited:text-gray-100"
+				href="/#/">設定</a
+			>
+		{/if}
+	</li>
+	<li class="mr-4">
 		{#if $location !== "/help"}
 			<a
 				class="hover:bg-gray-500 hover:no-underline inline-block p-4 text-gray-100 text-lg visited:text-gray-100"
