@@ -1,6 +1,5 @@
 <script>
-	import { location } from 'svelte-spa-router'
-	console.log($location)
+	import { location } from "svelte-spa-router";
 </script>
 
 <ul class="bg-gray-600 flex m-4 mb-0 rounded-t-2xl">
