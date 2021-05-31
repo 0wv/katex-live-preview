@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "KaTeX Live Preview",
+    "short_name": "Kalp",
     "icons": [
        {
           "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
         "type": "image/png"
         }
     ],
-    "theme_color": "#FFFFFF",
-    "background_color": "#FFFFFF",
+    "theme_color": "#4B5563",
+    "background_color": "#4B5563",
     "display": "standalone"
  }
