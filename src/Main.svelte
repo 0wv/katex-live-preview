@@ -15,10 +15,6 @@
 	})
 </script>
 
-<svelte:head>
-	<title>KaTeX Live Preview</title>
-</svelte:head>
-
 <div class="bg-blue-100 m-4 mt-0 p-4 rounded-b-2xl">
 	<label class="border-b-4 border-blue-400 font-bold mb-2 ml-4 text-lg w-max" for="katexRawElem">数式</label>
 	<div class="mb-4 mt-4 pl-4 pr-4">
